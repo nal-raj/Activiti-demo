@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.824" errors="1" skipped="0" tests="1" name="ProcessTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\surefire\surefirebooter8577506904870970387.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\nalbalwr\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oracle12c\CDBORCL_home\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_09\bin;E:\BioImagine\apache-maven-3.0.4\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\iNTERFACEWARE\Chameleon;C:\Program Files (x86)\iNTERFACEWARE\Chameleon\DelphiPackages;C:\Program Files\iNTERFACEWARE\Iguana;."/>
+    <property name="surefire.test.class.path" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\test-classes;E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\classes;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-orm\4.1.5.RELEASE\spring-orm-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-jdbc\4.1.5.RELEASE\spring-jdbc-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-tx\4.1.5.RELEASE\spring-tx-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-engine\5.18.0\activiti-engine-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-bpmn-converter\5.18.0\activiti-bpmn-converter-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-bpmn-model\5.18.0\activiti-bpmn-model-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-process-validation\5.18.0\activiti-process-validation-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-image-generator\5.18.0\activiti-image-generator-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\apache\commons\commons-email\1.4\commons-email-1.4.jar;E:\BioImagine\Maven\.m2\repository\com\sun\mail\javax.mail\1.5.2\javax.mail-1.5.2.jar;E:\BioImagine\Maven\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;E:\BioImagine\Maven\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\BioImagine\Maven\.m2\repository\org\mybatis\mybatis\3.2.5\mybatis-3.2.5.jar;E:\BioImagine\Maven\.m2\repository\joda-time\joda-time\2.6\joda-time-2.6.jar;E:\BioImagine\Maven\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;E:\BioImagine\Maven\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.6\jcl-over-slf4j-1.7.6.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-spring\5.18.0\activiti-spring-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\BioImagine\Maven\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\BioImagine\Maven\.m2\repository\org\codehaus\groovy\groovy\2.4.3\groovy-2.4.3.jar;E:\BioImagine\Maven\.m2\repository\com\h2database\h2\1.3.176\h2-1.3.176.jar;E:\BioImagine\Maven\.m2\repository\junit\junit\4.11\junit-4.11.jar;E:\BioImagine\Maven\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\nalbalwr"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nalbalwr"/>
+    <property name="java.class.path" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\test-classes;E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\classes;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-test\4.1.5.RELEASE\spring-test-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-orm\4.1.5.RELEASE\spring-orm-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-jdbc\4.1.5.RELEASE\spring-jdbc-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-tx\4.1.5.RELEASE\spring-tx-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-engine\5.18.0\activiti-engine-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-bpmn-converter\5.18.0\activiti-bpmn-converter-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-bpmn-model\5.18.0\activiti-bpmn-model-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-process-validation\5.18.0\activiti-process-validation-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-image-generator\5.18.0\activiti-image-generator-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\org\apache\commons\commons-email\1.4\commons-email-1.4.jar;E:\BioImagine\Maven\.m2\repository\com\sun\mail\javax.mail\1.5.2\javax.mail-1.5.2.jar;E:\BioImagine\Maven\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;E:\BioImagine\Maven\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;E:\BioImagine\Maven\.m2\repository\org\mybatis\mybatis\3.2.5\mybatis-3.2.5.jar;E:\BioImagine\Maven\.m2\repository\joda-time\joda-time\2.6\joda-time-2.6.jar;E:\BioImagine\Maven\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;E:\BioImagine\Maven\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.6\jcl-over-slf4j-1.7.6.jar;E:\BioImagine\Maven\.m2\repository\org\activiti\activiti-spring\5.18.0\activiti-spring-5.18.0.jar;E:\BioImagine\Maven\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\BioImagine\Maven\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\BioImagine\Maven\.m2\repository\org\codehaus\groovy\groovy\2.4.3\groovy-2.4.3.jar;E:\BioImagine\Maven\.m2\repository\com\h2database\h2\1.3.176\h2-1.3.176.jar;E:\BioImagine\Maven\.m2\repository\junit\junit\4.11\junit-4.11.jar;E:\BioImagine\Maven\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre7"/>
+    <property name="sun.java.command" value="E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\surefire\surefirebooter8577506904870970387.jar E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\surefire\surefire441665357098517993tmp E:\Rajeshwar\WorkSpaceNew\activiti-examples\target\surefire\surefire2577847635807572377tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="E:\BioImagine\Maven\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="2.193" classname="ProcessTest" name="sampleTest">
+    <error message="Can&apos;t find scripting engine for &apos;groovy&apos;" type="org.activiti.engine.ActivitiException">org.activiti.engine.ActivitiException: Can&apos;t find scripting engine for &apos;groovy&apos;
+	at org.activiti.engine.impl.scripting.ScriptingEngines.getEngineByName(ScriptingEngines.java:124)
+	at org.activiti.engine.impl.scripting.ScriptingEngines.evaluate(ScriptingEngines.java:85)
+	at org.activiti.engine.impl.scripting.ScriptingEngines.evaluate(ScriptingEngines.java:73)
+	at org.activiti.engine.impl.bpmn.behavior.ScriptTaskActivityBehavior.execute(ScriptTaskActivityBehavior.java:62)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationActivityExecute.execute(AtomicOperationActivityExecute.java:60)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionNotifyListenerStart.eventNotificationsCompleted(AtomicOperationTransitionNotifyListenerStart.java:52)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:56)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:49)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionCreateScope.execute(AtomicOperationTransitionCreateScope.java:49)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionNotifyListenerTake.execute(AtomicOperationTransitionNotifyListenerTake.java:80)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionDestroyScope.execute(AtomicOperationTransitionDestroyScope.java:116)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationTransitionNotifyListenerEnd.eventNotificationsCompleted(AtomicOperationTransitionNotifyListenerEnd.java:35)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:56)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:49)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.take(ExecutionEntity.java:452)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.take(ExecutionEntity.java:430)
+	at org.activiti.engine.impl.bpmn.behavior.BpmnActivityBehavior.performOutgoingBehavior(BpmnActivityBehavior.java:140)
+	at org.activiti.engine.impl.bpmn.behavior.BpmnActivityBehavior.performDefaultOutgoingBehavior(BpmnActivityBehavior.java:66)
+	at org.activiti.engine.impl.bpmn.behavior.FlowNodeActivityBehavior.leave(FlowNodeActivityBehavior.java:44)
+	at org.activiti.engine.impl.bpmn.behavior.FlowNodeActivityBehavior.execute(FlowNodeActivityBehavior.java:36)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationActivityExecute.execute(AtomicOperationActivityExecute.java:60)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationProcessStartInitial.eventNotificationsCompleted(AtomicOperationProcessStartInitial.java:45)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:56)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.pvm.runtime.AtomicOperationProcessStart.eventNotificationsCompleted(AtomicOperationProcessStart.java:64)
+	at org.activiti.engine.impl.pvm.runtime.AbstractEventAtomicOperation.execute(AbstractEventAtomicOperation.java:56)
+	at org.activiti.engine.impl.interceptor.CommandContext.performOperation(CommandContext.java:96)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperationSync(ExecutionEntity.java:633)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.performOperation(ExecutionEntity.java:628)
+	at org.activiti.engine.impl.persistence.entity.ExecutionEntity.start(ExecutionEntity.java:380)
+	at org.activiti.engine.impl.cmd.StartProcessInstanceCmd.execute(StartProcessInstanceCmd.java:110)
+	at org.activiti.engine.impl.cmd.StartProcessInstanceCmd.execute(StartProcessInstanceCmd.java:37)
+	at org.activiti.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:24)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:57)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:31)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:40)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:35)
+	at org.activiti.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:77)
+	at ProcessTest.sampleTest(ProcessTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.activiti.engine.test.ActivitiRule$1.evaluate(ActivitiRule.java:126)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning ProcessTest
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+</testsuite>
