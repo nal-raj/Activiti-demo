@@ -44,7 +44,6 @@ public class WorkflowManager {
 	}
 
 	private void InSignOutOrder(String orderInstanceId) {
-		// TODO Auto-generated method stub
 		WorkflowContext.setContext(new WorkflowContext());
 		WorkflowContext.getContext().setStateChangeCallBack(new StateChangeCallBack() {
 
