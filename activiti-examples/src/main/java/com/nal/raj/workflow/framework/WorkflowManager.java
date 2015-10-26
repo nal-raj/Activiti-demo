@@ -36,11 +36,11 @@ public class WorkflowManager {
 	}
 
 	public void signalOrderSignOut(String orderInstanceId) {
-		System.out.println("Order :: Before State Changed InstanceiD = "+ getProcessHelper().GetProcessState(orderInstanceId) );
+		System.out.println("Order :: Before State Changed = "+ getProcessHelper().GetProcessState(orderInstanceId) );
 		
 		InSignOutOrder(orderInstanceId);
 		//Other Business logic
-		System.out.println("Order :: After State Changed InstanceiD = "+ getProcessHelper().GetProcessState(orderInstanceId) );
+		System.out.println("Order :: After State Changed = "+ getProcessHelper().GetProcessState(orderInstanceId) );
 	}
 
 	private void InSignOutOrder(String orderInstanceId) {
